@@ -6,6 +6,8 @@
   font-weight: bold;
 }
 
+
+
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -103,14 +105,280 @@ nav ul li {
 .user-2 {
     text-align: center;
     font-weight: bold;
+    padding: 50px;
+    margin: 100px;
 
 }
 .forth-part {
-    text-align: left;
+    text-align:;
     border-image: round;
     display: flex;
+    justify-content:;
+    margin-bottom: 50px;
+    gap: 100px;
 }
 .box-2 {
-    background-color: #ffffff23;
-    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.137);
+    padding: 50px;
+    text-align: left;
 }
+.Reviewer {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+.Reviewer img {
+    border-radius: 50px;
+}
+.Reviewer h4 {
+    margin-left: 20px;
+    font-size: 15px;
+}
+.Reviewer p{
+    margin-bottom: 1rem;
+    color: #B3B3B3;
+    margin-left: 20px;
+}
+/* main-get-start */
+.get-start {
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 100px;
+    padding: 70px;
+    width: auto;
+    justify-content: center;
+    
+
+}
+.title-btn1 {
+    color: #4E47FF;
+
+}
+
+.get-start img {
+    border-radius: 48px;
+
+}
+
+.get-start h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 71px;
+    margin-top: 0px;
+
+}
+
+
+.get-start p {
+    color: #8987a1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* main-form section */
+.form {
+    display: flex;
+    gap: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 100px;
+    width: auto;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    flex: 1 1 300px;
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.right-section {
+    flex: 1 1 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+input,
+textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 100px;
+
+}
+
+footer h1 {
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #1E1E1E;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+    color: #8987a1;
+}
+* main-get-start */
+.get-start {
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 100px;
+    padding: 70px;
+    width: auto;
+    justify-content: center;
+
+}
+
+.get-start img {
+    border-radius: 48px;
+
+}
+
+.get-start h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 71px;
+    margin-top: 0px;
+
+}
+
+
+.get-start p {
+    color: #8987a1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* main-form section */
+.form {
+    display: flex;
+    gap: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 100px;
+    width: auto;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    flex: 1 1 300px;
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.right-section {
+    flex: 1 1 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+input,
+textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 100px;
+
+}
+
+footer h1 {
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #1E1E1E;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+    color: #8987a1;
+}
+.get-start img {
+    margin-top: 20px;
+}
+
+
+
