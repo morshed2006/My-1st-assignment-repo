@@ -100,3 +100,17 @@ nav ul li {
 .box p {
     color: #00000021;
 }
+.user-2 {
+    text-align: center;
+    font-weight: bold;
+
+}
+.forth-part {
+    text-align: left;
+    border-image: round;
+    display: flex;
+}
+.box-2 {
+    background-color: #ffffff23;
+    
+}
